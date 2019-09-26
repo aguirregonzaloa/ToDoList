@@ -1,0 +1,59 @@
+body{
+	background: rgba(51, 102, 255, 1);
+}
+
+.container {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0%);
+}
+
+.header {
+	font-size: 2rem;
+	text-align: center;
+	background: rgba(0, 153, 204, 1);
+	max-width: 480px;
+}
+
+.title {
+	color: white ;
+}
+
+.list {
+  max-width: 240px;
+  background: $white;
+  box-shadow: 1rem 1rem .5rem rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  width: 100%;
+}
+
+.add {
+	background: rgba(51, 102, 255, 1);
+	color: white;
+	list-style: none;
+	width: 100%;
+}
+
+span{
+	margin: 10px auto;
+}
+.delete{
+	margin: 10px auto;
+	cursor: pointer;
+    font-size: 1.5rem;
+ }
+
+.labelitem {
+	color: white;
+}
+
+.additem {
+	
+	font-size: 2rem;
+	background: rgba(0, 153, 204, 1);
+	width: 100%;
+}
+
+.filtered {
+    display: none  !important;
+}
